@@ -1,0 +1,19 @@
+#container {
+  width: 100vh;
+  height: 97.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+  padding: 10px 20px;
+  border: 0;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
