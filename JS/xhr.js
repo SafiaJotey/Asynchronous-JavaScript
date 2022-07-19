@@ -17,7 +17,7 @@ xhr.open('GET', url); //asynchronous
 
 // we can directly uxhse onLoad, the onload works when ready state is 4
 xhr.onload = function () {
-  if (xhr.status >= 200 && xhr.status < 3) {
+  if (xhr.status >= 200 && xhr.status < 300) {
     const response = xhr.response;
     const data = JSON.parse(response);
     console.log(data);
